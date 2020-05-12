@@ -1,0 +1,49 @@
+.login {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+.login > .logins {
+  position: absolute;
+  width: 330px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: 20px auto;
+  /* border: 1px solid red; */
+}
+.login > .logins > .menu {
+  text-align: center;
+  cursor: pointer;
+  color: chartreuse;
+}
+.login > .logins > .menu > li {
+  display: inline-block;
+  width: 88px;
+  line-height: 36px;
+  color: #fff;
+}
+.login > .logins > .el-form-item {
+  display: block;
+  /* width:100%; */
+  margin-bottom: 2px;
+}
+.login > .logins > .el-form-item > label {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+}
+.login > .logins > .el-form-item > .el-button {
+  display: block;
+  width: 100%;
+  background-color: red;
+  margin-top: 15px;
+}
+.login > .logins > .el-button {
+  display: block;
+  width: 100%;
+  background-color: red;
+  margin-top: 15px;
+}
