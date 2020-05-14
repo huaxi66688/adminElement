@@ -12,13 +12,14 @@ router.beforeEach((to, from, next) => {
     if(getToKen()){
         console.log('存在')
         if(to.path === '/login'){
-            //清掉
-            //removeToken();
-           // removeUsername();
+            //进入后，清掉
+            removeToken();
+            removeUsername();
             next();
         }else{
             next();
         }
+        
         next();
     }else{ 
         //console.log('不存在')

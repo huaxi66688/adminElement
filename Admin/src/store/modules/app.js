@@ -44,7 +44,7 @@ import {setToKen,setUser,removeToken,removeUser} from "../../utils/app.js";
       username:Cookie.get('username') || ''
       //username:getUsername() || ''
    }
-   const getters = {//计算,获取数据
+   const getters = {//计算,获取数据,有计算属性用getters,没有就用state
           count:state =>state.count+10,//有参数    count:()=>state.count+10
          //  username:state =>state.username//只的变化
    }
